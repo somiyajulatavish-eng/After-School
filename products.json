@@ -1,0 +1,2190 @@
+[
+ {
+  "slug": "bell-heavyweight-hoodie",
+  "name": "Bell Heavyweight Hoodie",
+  "category": "clothing",
+  "type": "Hoodie",
+  "art": "hoodie",
+  "price": 8800,
+  "colors": [
+   {
+    "name": "Chalk Green",
+    "hex": "#2E4A3D"
+   },
+   {
+    "name": "Ballpoint",
+    "hex": "#22308F"
+   },
+   {
+    "name": "Ash",
+    "hex": "#B5B8AF"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "Bestseller",
+  "description": "Our heaviest fleece, cut boxy with a hood that holds its shape. The one people ask about first.",
+  "tags": [
+   "hoodie",
+   "fleece",
+   "heavyweight",
+   "layering"
+  ],
+  "createdAt": "2026-03-02",
+  "details": [
+   "480gsm brushed-back cotton fleece",
+   "Double-layer hood with flat drawcords",
+   "Dropped shoulder, boxy fit: take your usual size",
+   "Garment-dyed and pre-shrunk",
+   "Machine wash cold, hang dry"
+  ]
+ },
+ {
+  "slug": "detention-zip-hoodie",
+  "name": "Detention Zip Hoodie",
+  "category": "clothing",
+  "type": "Zip Hoodie",
+  "art": "ziphoodie",
+  "price": 9500,
+  "colors": [
+   {
+    "name": "Charcoal",
+    "hex": "#3A3B3D"
+   },
+   {
+    "name": "Oatmeal",
+    "hex": "#D3CBB9"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A two-way zip hoodie that works open over a tee or zipped to the chin on the walk home.",
+  "tags": [
+   "hoodie",
+   "zip",
+   "layering"
+  ],
+  "createdAt": "2026-02-11",
+  "details": [
+   "420gsm loopback cotton",
+   "Two-way metal zip",
+   "Split kangaroo pocket",
+   "Ribbed cuffs and hem",
+   "Machine wash cold"
+  ]
+ },
+ {
+  "slug": "prefect-crewneck",
+  "name": "Prefect Crewneck Sweatshirt",
+  "category": "clothing",
+  "type": "Sweatshirt",
+  "art": "sweatshirt",
+  "price": 7600,
+  "colors": [
+   {
+    "name": "Heather Grey",
+    "hex": "#A9ABA6"
+   },
+   {
+    "name": "Forest",
+    "hex": "#284033"
+   },
+   {
+    "name": "Burgundy",
+    "hex": "#5C1F2A"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A clean raglan crew with a small embroidered crest on the chest. Easy to wear with everything.",
+  "tags": [
+   "sweatshirt",
+   "crewneck",
+   "fleece"
+  ],
+  "createdAt": "2026-01-20",
+  "details": [
+   "400gsm loopback cotton",
+   "Raglan sleeve, relaxed fit",
+   "Ribbed crew neck with V insert",
+   "Machine wash cold"
+  ]
+ },
+ {
+  "slug": "margin-oversized-tee",
+  "name": "Margin Oversized Tee",
+  "category": "clothing",
+  "type": "Oversized Tee",
+  "art": "tee",
+  "price": 4200,
+  "colors": [
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Faded Red",
+    "hex": "#B8483A"
+   },
+   {
+    "name": "Sage",
+    "hex": "#9CAF95"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "Bestseller",
+  "description": "Heavyweight cotton, wide body, short sleeves that hit just above the elbow. Small margin-line print on the back.",
+  "tags": [
+   "tee",
+   "oversized",
+   "cotton",
+   "summer"
+  ],
+  "createdAt": "2026-04-14",
+  "details": [
+   "240gsm heavyweight combed cotton",
+   "Oversized fit with dropped shoulder",
+   "Tight 2cm ribbed collar",
+   "Screen-printed with water-based inks",
+   "Machine wash cold, inside out"
+  ]
+ },
+ {
+  "slug": "recess-graphic-tee",
+  "name": "Recess Graphic Tee",
+  "category": "clothing",
+  "type": "Oversized Tee",
+  "art": "tee",
+  "price": 4500,
+  "colors": [
+   {
+    "name": "Ink",
+    "hex": "#14206B"
+   },
+   {
+    "name": "Bone",
+    "hex": "#E6E0CF"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "New",
+  "description": "Front print of a hand-drawn playground map, printed in three colours on heavyweight cotton.",
+  "tags": [
+   "tee",
+   "graphic",
+   "oversized"
+  ],
+  "createdAt": "2026-09-18",
+  "details": [
+   "240gsm heavyweight combed cotton",
+   "Oversized fit with dropped shoulder",
+   "Tight 2cm ribbed collar",
+   "Screen-printed with water-based inks",
+   "Machine wash cold, inside out"
+  ]
+ },
+ {
+  "slug": "study-hall-long-sleeve",
+  "name": "Study Hall Long Sleeve",
+  "category": "clothing",
+  "type": "Long Sleeve Tee",
+  "art": "longsleeve",
+  "price": 5200,
+  "colors": [
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   },
+   {
+    "name": "Olive",
+    "hex": "#5E6B45"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A long sleeve tee with a timetable print running down the left arm.",
+  "tags": [
+   "tee",
+   "long sleeve",
+   "layering"
+  ],
+  "createdAt": "2026-08-27",
+  "details": [
+   "220gsm combed cotton jersey",
+   "Regular fit, longer sleeve",
+   "Printed sleeve hit",
+   "Machine wash cold"
+  ]
+ },
+ {
+  "slug": "field-trip-cargo-pants",
+  "name": "Field Trip Cargo Pants",
+  "category": "clothing",
+  "type": "Cargo Pants",
+  "art": "cargo",
+  "price": 11000,
+  "colors": [
+   {
+    "name": "Olive",
+    "hex": "#5E6B45"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Stone",
+    "hex": "#B7AC92"
+   }
+  ],
+  "sizes": [
+   "28",
+   "30",
+   "32",
+   "34",
+   "36",
+   "38"
+  ],
+  "badge": "Bestseller",
+  "description": "Ripstop cargos with deep thigh pockets and toggle hems, so you can wear them stacked or cinched.",
+  "tags": [
+   "cargo",
+   "pants",
+   "ripstop",
+   "utility"
+  ],
+  "createdAt": "2026-02-25",
+  "details": [
+   "Cotton ripstop, 280gsm",
+   "Six pockets including bellowed thigh pockets",
+   "Adjustable toggle hems",
+   "Relaxed straight leg",
+   "YKK zip fly"
+  ]
+ },
+ {
+  "slug": "late-bus-joggers",
+  "name": "Late Bus Joggers",
+  "category": "clothing",
+  "type": "Joggers",
+  "art": "jogger",
+  "price": 7800,
+  "colors": [
+   {
+    "name": "Heather Grey",
+    "hex": "#A9ABA6"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "Brushed fleece joggers that match the Bell Hoodie. Tapered, with a zip back pocket for your bus pass.",
+  "tags": [
+   "joggers",
+   "fleece",
+   "pants",
+   "loungewear"
+  ],
+  "createdAt": "2026-01-09",
+  "details": [
+   "380gsm brushed fleece",
+   "Elastic waist with internal drawcord",
+   "Zip back pocket",
+   "Tapered leg with ribbed cuff"
+  ]
+ },
+ {
+  "slug": "lunch-break-nylon-shorts",
+  "name": "Lunch Break Nylon Shorts",
+  "category": "clothing",
+  "type": "Shorts",
+  "art": "shorts",
+  "price": 4800,
+  "compareAt": 6000,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Royal",
+    "hex": "#2A3FE0"
+   },
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "Sale",
+  "description": "Quick-dry nylon shorts with a mesh liner. Good for five-a-side, good for doing nothing.",
+  "tags": [
+   "shorts",
+   "nylon",
+   "summer",
+   "sport"
+  ],
+  "createdAt": "2026-05-03",
+  "details": [
+   "Lightweight recycled nylon",
+   "Mesh lining",
+   "Elastic waist with drawcord",
+   "7-inch inseam"
+  ]
+ },
+ {
+  "slug": "free-period-sweat-shorts",
+  "name": "Free Period Sweat Shorts",
+  "category": "clothing",
+  "type": "Sweat Shorts",
+  "art": "shorts",
+  "price": 5500,
+  "colors": [
+   {
+    "name": "Heather Grey",
+    "hex": "#A9ABA6"
+   },
+   {
+    "name": "Chalk Green",
+    "hex": "#2E4A3D"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "Fleece shorts with a raw-cut hem and deep pockets.",
+  "tags": [
+   "shorts",
+   "fleece",
+   "loungewear"
+  ],
+  "createdAt": "2026-05-20",
+  "details": [
+   "380gsm brushed fleece",
+   "Raw-cut hem",
+   "Side seam pockets",
+   "8-inch inseam"
+  ]
+ },
+ {
+  "slug": "hall-pass-coach-jacket",
+  "name": "Hall Pass Coach Jacket",
+  "category": "clothing",
+  "type": "Jacket",
+  "art": "jacket",
+  "price": 12500,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   },
+   {
+    "name": "Forest",
+    "hex": "#284033"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A light snap-front coach jacket with a large embroidered back hit. Shower resistant.",
+  "tags": [
+   "jacket",
+   "outerwear",
+   "lightweight"
+  ],
+  "createdAt": "2026-03-30",
+  "details": [
+   "Water-resistant shell",
+   "Snap front closure",
+   "Lightweight mesh lining",
+   "Relaxed fit for layering"
+  ]
+ },
+ {
+  "slug": "homeroom-varsity-jacket",
+  "name": "Homeroom Varsity Jacket",
+  "category": "clothing",
+  "type": "Varsity Jacket",
+  "art": "jacket",
+  "price": 18500,
+  "colors": [
+   {
+    "name": "Green and Cream",
+    "hex": "#2B4A38"
+   },
+   {
+    "name": "Navy and Grey",
+    "hex": "#1C2340"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "New",
+  "description": "Wool-blend body, faux-leather sleeves and a chenille AS patch. Built to last more than one school year.",
+  "tags": [
+   "jacket",
+   "varsity",
+   "outerwear",
+   "winter"
+  ],
+  "createdAt": "2026-09-29",
+  "details": [
+   "Wool-blend body with faux-leather sleeves",
+   "Quilted satin lining",
+   "Chenille patch on chest",
+   "Striped rib collar, cuffs and hem"
+  ]
+ },
+ {
+  "slug": "rain-day-windbreaker",
+  "name": "Rain Day Windbreaker",
+  "category": "clothing",
+  "type": "Jacket",
+  "art": "jacket",
+  "price": 12000,
+  "colors": [
+   {
+    "name": "Royal",
+    "hex": "#2A3FE0"
+   },
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "Packable windbreaker with a hidden hood in the collar. Folds into its own chest pocket.",
+  "tags": [
+   "jacket",
+   "windbreaker",
+   "outerwear",
+   "packable"
+  ],
+  "createdAt": "2026-04-02",
+  "details": [
+   "Water-resistant shell",
+   "Snap front closure",
+   "Lightweight mesh lining",
+   "Relaxed fit for layering"
+  ]
+ },
+ {
+  "slug": "chalk-logo-cap",
+  "name": "Chalk Logo Cap",
+  "category": "clothing",
+  "type": "Cap",
+  "art": "cap",
+  "price": 3600,
+  "colors": [
+   {
+    "name": "Chalk Green",
+    "hex": "#2E4A3D"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   },
+   {
+    "name": "Stone",
+    "hex": "#B7AC92"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "description": "Unstructured six-panel cap with the After School wordmark stitched in chalk white.",
+  "tags": [
+   "cap",
+   "hat",
+   "headwear"
+  ],
+  "createdAt": "2026-02-02",
+  "details": [
+   "Six-panel unstructured crown",
+   "Embroidered front logo",
+   "Adjustable strap with metal clasp",
+   "One size fits most"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "corridor-nylon-cap",
+  "name": "Corridor Nylon Cap",
+  "category": "clothing",
+  "type": "Cap",
+  "art": "cap",
+  "price": 3800,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Royal",
+    "hex": "#2A3FE0"
+   }
+  ],
+  "description": "Lightweight nylon cap with a short brim and a tonal rubber patch.",
+  "tags": [
+   "cap",
+   "hat",
+   "headwear",
+   "nylon"
+  ],
+  "createdAt": "2026-06-11",
+  "details": [
+   "Six-panel unstructured crown",
+   "Embroidered front logo",
+   "Adjustable strap with metal clasp",
+   "One size fits most"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "snow-day-beanie",
+  "name": "Snow Day Beanie",
+  "category": "clothing",
+  "type": "Beanie",
+  "art": "beanie",
+  "price": 3200,
+  "colors": [
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   },
+   {
+    "name": "Ballpoint",
+    "hex": "#22308F"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Ash",
+    "hex": "#B5B8AF"
+   }
+  ],
+  "badge": "New",
+  "description": "Chunky rib beanie with a deep fold-over cuff.",
+  "tags": [
+   "beanie",
+   "hat",
+   "headwear",
+   "winter"
+  ],
+  "createdAt": "2026-09-22",
+  "details": [
+   "Soft acrylic-wool blend rib knit",
+   "Fold-over cuff",
+   "Woven label",
+   "One size"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "bell-pom-beanie",
+  "name": "Bell Pom Beanie",
+  "category": "clothing",
+  "type": "Beanie",
+  "art": "pombeanie",
+  "price": 3400,
+  "colors": [
+   {
+    "name": "Burgundy",
+    "hex": "#5C1F2A"
+   },
+   {
+    "name": "Forest",
+    "hex": "#284033"
+   }
+  ],
+  "description": "A classic bobble beanie with a jacquard After School band.",
+  "tags": [
+   "beanie",
+   "hat",
+   "headwear",
+   "winter"
+  ],
+  "createdAt": "2025-11-12",
+  "details": [
+   "Soft acrylic-wool blend rib knit",
+   "Fold-over cuff",
+   "Woven label",
+   "One size"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "gym-kit-crew-socks",
+  "name": "Gym Kit Crew Socks (3 pack)",
+  "category": "clothing",
+  "type": "Socks",
+  "art": "socks",
+  "price": 2400,
+  "colors": [
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "sizes": [
+   "S/M",
+   "L/XL"
+  ],
+  "description": "Three pairs of cushioned crew socks with a striped top. The pair you'll actually reach for.",
+  "tags": [
+   "socks",
+   "accessories",
+   "multipack"
+  ],
+  "createdAt": "2026-01-15",
+  "details": [
+   "Combed cotton blend",
+   "Cushioned sole",
+   "Arch support band",
+   "Pack of three"
+  ]
+ },
+ {
+  "slug": "locker-canvas-tote",
+  "name": "Locker Canvas Tote",
+  "category": "clothing",
+  "type": "Tote",
+  "art": "tote",
+  "price": 3000,
+  "colors": [
+   {
+    "name": "Natural",
+    "hex": "#DDD3BC"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "description": "Heavy canvas tote with an inner zip pocket for anything you can't lose.",
+  "tags": [
+   "bag",
+   "tote",
+   "accessories"
+  ],
+  "createdAt": "2026-03-08",
+  "details": [
+   "14oz natural cotton canvas",
+   "Inner zip pocket",
+   "Long handles fit over a shoulder",
+   "Holds a laptop up to 15 inches"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "satchel-22l-backpack",
+  "name": "Satchel 22L Backpack",
+  "category": "clothing",
+  "type": "Backpack",
+  "art": "backpack",
+  "price": 9600,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Olive",
+    "hex": "#5E6B45"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   }
+  ],
+  "description": "A clean 22-litre daypack with a padded laptop sleeve and a quick-grab front pocket.",
+  "tags": [
+   "bag",
+   "backpack",
+   "accessories"
+  ],
+  "createdAt": "2026-07-17",
+  "details": [
+   "Recycled 600D polyester",
+   "Padded laptop sleeve, fits 16 inches",
+   "Water-resistant base",
+   "Front quick-access pocket"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "pencil-case-crossbody",
+  "name": "Pencil Case Crossbody Bag",
+  "category": "clothing",
+  "type": "Bag",
+  "art": "pouch",
+  "price": 4200,
+  "colors": [
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Royal",
+    "hex": "#2A3FE0"
+   }
+  ],
+  "description": "A small crossbody shaped like an oversized pencil case. Phone, keys, lip balm, done.",
+  "tags": [
+   "bag",
+   "crossbody",
+   "accessories"
+  ],
+  "createdAt": "2026-06-30",
+  "details": [
+   "Recycled nylon",
+   "Adjustable crossbody strap",
+   "Two zip compartments",
+   "Fits a phone, keys and a notebook"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "hall-pass-lanyard",
+  "name": "Hall Pass Lanyard",
+  "category": "clothing",
+  "type": "Lanyard",
+  "art": "keychain",
+  "price": 1400,
+  "colors": [
+   {
+    "name": "Ballpoint",
+    "hex": "#22308F"
+   },
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   }
+  ],
+  "description": "Woven lanyard with a swivel clip. Keys, travel card or ID, always in reach.",
+  "tags": [
+   "lanyard",
+   "accessories",
+   "keys"
+  ],
+  "createdAt": "2026-04-22",
+  "details": [
+   "Woven polyester strap",
+   "Metal swivel clip",
+   "Detachable keyring",
+   "Printed both sides"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "samba-gold-retro-shirt",
+  "name": "Samba Gold '94 Retro Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "solid",
+  "price": 7500,
+  "colors": [
+   {
+    "name": "Gold",
+    "hex": "#F2D22E"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "Bestseller",
+  "description": "Inspired by Brazil's golden summers. A canary yellow shirt with green collar and cuffs, in a relaxed retro cut.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "national team",
+   "retro",
+   "brazil"
+  ],
+  "createdAt": "2026-05-28",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "azzurri-classic-shirt",
+  "name": "Azzurri Classic Home Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "solid",
+  "price": 7500,
+  "colors": [
+   {
+    "name": "Azzurro",
+    "hex": "#1F5FB8"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "An Italy-inspired shirt in deep sky blue with a white button collar. Clean, classic, no sponsor.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "national team",
+   "italy"
+  ],
+  "createdAt": "2026-05-12",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "albiceleste-stripe-shirt",
+  "name": "Albiceleste Stripe Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "stripes",
+  "price": 7800,
+  "colors": [
+   {
+    "name": "Sky and White",
+    "hex": "#7FB7E6"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "New",
+  "description": "Sky blue and white vertical stripes inspired by Argentina, with a black crew collar.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "national team",
+   "argentina",
+   "stripes"
+  ],
+  "createdAt": "2026-09-05",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "sixty-six-retro-shirt",
+  "name": "Sixty-Six Retro Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "solid",
+  "price": 7200,
+  "colors": [
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A nod to England's 1966 summer: crew neck, long-staple cotton feel, and a single red trim line.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "national team",
+   "england",
+   "retro"
+  ],
+  "createdAt": "2026-04-30",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "oranje-fan-shirt",
+  "name": "Oranje Fan Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "halves",
+  "price": 7000,
+  "compareAt": 8200,
+  "colors": [
+   {
+    "name": "Orange",
+    "hex": "#F27A1A"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "badge": "Sale",
+  "description": "A loud orange shirt inspired by the Netherlands, with a tonal halves pattern you only see up close.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "national team",
+   "netherlands"
+  ],
+  "createdAt": "2026-03-18",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "green-hoops-shirt",
+  "name": "Green Hoops Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "hoops",
+  "price": 7200,
+  "colors": [
+   {
+    "name": "Green and White",
+    "hex": "#178A4C"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "Bold green and white hoops in the Glasgow tradition. Unbadged, lightweight and made for the stands.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "club",
+   "hoops",
+   "glasgow"
+  ],
+  "createdAt": "2026-08-08",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "milano-stripes-shirt",
+  "name": "Milano Stripes Shirt",
+  "category": "football",
+  "type": "Football Shirt",
+  "art": "jersey",
+  "pattern": "stripes",
+  "price": 7800,
+  "colors": [
+   {
+    "name": "Red and Black",
+    "hex": "#C21F2E"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "Red and black stripes inspired by Milan's football history. Slim retro cut, rib collar.",
+  "tags": [
+   "shirt",
+   "jersey",
+   "club",
+   "stripes",
+   "milan"
+  ],
+  "createdAt": "2026-07-02",
+  "details": [
+   "Lightweight recycled polyester",
+   "Moisture-wicking knit",
+   "Embroidered heritage badge (unofficial design)",
+   "Regular fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "les-bleus-training-top",
+  "name": "Les Bleus Training Top",
+  "category": "football",
+  "type": "Training Top",
+  "art": "trainingtop",
+  "price": 6800,
+  "colors": [
+   {
+    "name": "Navy",
+    "hex": "#1B2A5E"
+   },
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A France-inspired quarter-zip training top with a tricolour stripe on the collar.",
+  "tags": [
+   "training",
+   "top",
+   "national team",
+   "france"
+  ],
+  "createdAt": "2026-06-04",
+  "details": [
+   "Stretch performance fabric",
+   "Quarter zip with chin guard",
+   "Thumb loops",
+   "Slim fit",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "madrid-white-track-jacket",
+  "name": "Madrid White Track Jacket",
+  "category": "football",
+  "type": "Track Jacket",
+  "art": "trackjacket",
+  "price": 9500,
+  "colors": [
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "All-white track jacket with gold taped sleeves, inspired by the Spanish capital's most famous kit.",
+  "tags": [
+   "jacket",
+   "track",
+   "club",
+   "madrid",
+   "training"
+  ],
+  "createdAt": "2026-08-21",
+  "details": [
+   "Tricot polyester",
+   "Full zip with stand collar",
+   "Contrast taped sleeves",
+   "Zip side pockets",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "northern-red-track-jacket",
+  "name": "Northern Red Track Jacket",
+  "category": "football",
+  "type": "Track Jacket",
+  "art": "trackjacket",
+  "price": 9200,
+  "colors": [
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "description": "A classic red tricot track jacket for cold away days up north.",
+  "tags": [
+   "jacket",
+   "track",
+   "club",
+   "training"
+  ],
+  "createdAt": "2026-02-17",
+  "details": [
+   "Tricot polyester",
+   "Full zip with stand collar",
+   "Contrast taped sleeves",
+   "Zip side pockets",
+   "Not affiliated with any club or federation"
+  ]
+ },
+ {
+  "slug": "matchday-bar-scarf",
+  "name": "Matchday Bar Scarf",
+  "category": "football",
+  "type": "Scarf",
+  "art": "scarf",
+  "price": 2800,
+  "colors": [
+   {
+    "name": "Red and White",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Blue and White",
+    "hex": "#1F5FB8"
+   },
+   {
+    "name": "Green and White",
+    "hex": "#178A4C"
+   },
+   {
+    "name": "Black and White",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "badge": "Bestseller",
+  "description": "A thick knit bar scarf in classic two-colour blocks. Pick your colours, hold it up at kick off.",
+  "tags": [
+   "scarf",
+   "matchday",
+   "winter",
+   "accessories"
+  ],
+  "createdAt": "2025-10-28",
+  "details": [
+   "Jacquard-knit acrylic",
+   "Approx. 140 x 18 cm",
+   "Tassel ends",
+   "Not affiliated with any club or federation"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "nations-knit-scarf",
+  "name": "Nations Knit Scarf",
+  "category": "football",
+  "type": "Scarf",
+  "art": "scarf",
+  "price": 3000,
+  "colors": [
+   {
+    "name": "Gold and Green",
+    "hex": "#F2D22E"
+   },
+   {
+    "name": "Orange and Navy",
+    "hex": "#F27A1A"
+   },
+   {
+    "name": "Sky and White",
+    "hex": "#7FB7E6"
+   }
+  ],
+  "description": "Jacquard scarf in national-team-inspired colourways. Big tassels, soft hand-feel.",
+  "tags": [
+   "scarf",
+   "national team",
+   "winter",
+   "accessories"
+  ],
+  "createdAt": "2026-09-12",
+  "details": [
+   "Jacquard-knit acrylic",
+   "Approx. 140 x 18 cm",
+   "Tassel ends",
+   "Not affiliated with any club or federation"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "terrace-bucket-hat",
+  "name": "Terrace Bucket Hat",
+  "category": "football",
+  "type": "Bucket Hat",
+  "art": "bucket",
+  "price": 3400,
+  "colors": [
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Royal",
+    "hex": "#2A3FE0"
+   },
+   {
+    "name": "Green",
+    "hex": "#178A4C"
+   }
+  ],
+  "description": "Cotton twill bucket hat with an embroidered ball motif. Made for summer tournaments.",
+  "tags": [
+   "hat",
+   "bucket",
+   "matchday",
+   "headwear"
+  ],
+  "createdAt": "2026-05-25",
+  "details": [
+   "Cotton twill",
+   "Stitched brim",
+   "Embroidered detail",
+   "One size fits most"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "terrace-bobble-hat",
+  "name": "Terrace Bobble Hat",
+  "category": "football",
+  "type": "Beanie",
+  "art": "pombeanie",
+  "price": 3000,
+  "colors": [
+   {
+    "name": "Red and White",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Blue and White",
+    "hex": "#1F5FB8"
+   }
+  ],
+  "description": "Striped bobble hat for winter evening kick-offs.",
+  "tags": [
+   "beanie",
+   "hat",
+   "matchday",
+   "winter"
+  ],
+  "createdAt": "2025-12-01",
+  "details": [
+   "Soft acrylic-wool blend rib knit",
+   "Fold-over cuff",
+   "Woven label",
+   "One size"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "pitchside-backpack",
+  "name": "Pitchside Boot Backpack",
+  "category": "football",
+  "type": "Backpack",
+  "art": "backpack",
+  "price": 8500,
+  "colors": [
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Navy",
+    "hex": "#1C2340"
+   }
+  ],
+  "description": "A 28L backpack with a vented boot compartment at the base and a fleece-lined phone pocket.",
+  "tags": [
+   "bag",
+   "backpack",
+   "training",
+   "accessories"
+  ],
+  "createdAt": "2026-07-24",
+  "details": [
+   "Recycled 600D polyester",
+   "Padded laptop sleeve, fits 16 inches",
+   "Water-resistant base",
+   "Front quick-access pocket"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "matchday-football-socks",
+  "name": "Matchday Football Socks",
+  "category": "football",
+  "type": "Football Socks",
+  "art": "footballsocks",
+  "price": 1800,
+  "colors": [
+   {
+    "name": "White",
+    "hex": "#F1F1EC"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   }
+  ],
+  "sizes": [
+   "Junior",
+   "Adult"
+  ],
+  "description": "Over-the-calf ribbed football socks. Fit over shin pads, stay up all ninety.",
+  "tags": [
+   "socks",
+   "training",
+   "accessories"
+  ],
+  "createdAt": "2026-03-11",
+  "details": [
+   "Ribbed knit, over the calf",
+   "Cushioned foot",
+   "Fits over shin pads",
+   "One pair"
+  ]
+ },
+ {
+  "slug": "articulated-crystal-dragon",
+  "name": "Articulated Crystal Dragon (60 cm)",
+  "category": "3d-printed",
+  "type": "Dragon",
+  "art": "dragon",
+  "price": 6400,
+  "colors": [
+   {
+    "name": "Galaxy Purple",
+    "hex": "#5B3D9E"
+   },
+   {
+    "name": "Emerald",
+    "hex": "#1E8C5A"
+   },
+   {
+    "name": "Silk Gold",
+    "hex": "#C9A23B"
+   },
+   {
+    "name": "Fire Red",
+    "hex": "#C8352B"
+   }
+  ],
+  "badge": "Bestseller",
+  "description": "Our biggest dragon: 60 cm of fully articulated silk PLA. Every segment moves, printed in one piece with no assembly.",
+  "tags": [
+   "dragon",
+   "articulated",
+   "collectible",
+   "large"
+  ],
+  "createdAt": "2026-01-30",
+  "details": [
+   "Printed in one piece: joints move straight off the bed",
+   "Silk PLA, made from plant starch",
+   "Every segment flexes and rotates",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "mini-articulated-dragon",
+  "name": "Mini Articulated Dragon (25 cm)",
+  "category": "3d-printed",
+  "type": "Dragon",
+  "art": "dragon",
+  "price": 2400,
+  "colors": [
+   {
+    "name": "Rainbow Silk",
+    "hex": "#D0459B"
+   },
+   {
+    "name": "Ocean Blue",
+    "hex": "#1F6FB8"
+   },
+   {
+    "name": "Glow Green",
+    "hex": "#7DDC5A"
+   }
+  ],
+  "description": "The pocket version of our bestseller. Wiggles, coils and sits on a monitor.",
+  "tags": [
+   "dragon",
+   "articulated",
+   "fidget",
+   "small"
+  ],
+  "createdAt": "2026-03-21",
+  "details": [
+   "Printed in one piece: joints move straight off the bed",
+   "Silk PLA, made from plant starch",
+   "Every segment flexes and rotates",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "skeleton-dragon",
+  "name": "Skeleton Dragon",
+  "category": "3d-printed",
+  "type": "Dragon",
+  "art": "dragon",
+  "price": 4800,
+  "colors": [
+   {
+    "name": "Bone White",
+    "hex": "#E6E0CF"
+   },
+   {
+    "name": "Glow in the Dark",
+    "hex": "#9BE06B"
+   }
+  ],
+  "badge": "New",
+  "description": "A bony, spine-ridged dragon with a skull head. The glow version charges under a desk lamp.",
+  "tags": [
+   "dragon",
+   "articulated",
+   "collectible",
+   "halloween"
+  ],
+  "createdAt": "2026-09-25",
+  "details": [
+   "Printed in one piece: joints move straight off the bed",
+   "Silk PLA, made from plant starch",
+   "Every segment flexes and rotates",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "articulated-octopus",
+  "name": "Articulated Octopus",
+  "category": "3d-printed",
+  "type": "Octopus",
+  "art": "octopus",
+  "price": 2200,
+  "colors": [
+   {
+    "name": "Silk Pink",
+    "hex": "#E46A9A"
+   },
+   {
+    "name": "Teal",
+    "hex": "#1E9C9A"
+   },
+   {
+    "name": "Purple",
+    "hex": "#6E46B8"
+   }
+  ],
+  "badge": "Bestseller",
+  "description": "Eight flexing tentacles, big googly eyes and a weighted body that sits upright on a desk.",
+  "tags": [
+   "octopus",
+   "articulated",
+   "fidget",
+   "sea creature"
+  ],
+  "createdAt": "2026-02-08",
+  "details": [
+   "Print-in-place articulated tentacles",
+   "PLA, soft-touch finish",
+   "Safe for ages 8+ (small parts)",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "baby-octopus-keyring",
+  "name": "Baby Octopus Keyring",
+  "category": "3d-printed",
+  "type": "Keychain",
+  "art": "octopus",
+  "price": 1200,
+  "colors": [
+   {
+    "name": "Coral",
+    "hex": "#EE6A4E"
+   },
+   {
+    "name": "Lilac",
+    "hex": "#A88AD8"
+   },
+   {
+    "name": "Mint",
+    "hex": "#7DD3B4"
+   }
+  ],
+  "description": "A tiny articulated octopus on a split ring. Fidget on the go.",
+  "tags": [
+   "octopus",
+   "keychain",
+   "fidget",
+   "small"
+  ],
+  "createdAt": "2026-06-19",
+  "details": [
+   "Two-colour PLA print",
+   "Split ring included",
+   "Approx. 5 cm",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "infinity-fidget-cube",
+  "name": "Infinity Fidget Cube",
+  "category": "3d-printed",
+  "type": "Fidget",
+  "art": "cube",
+  "price": 1600,
+  "colors": [
+   {
+    "name": "Black and Yellow",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "White and Blue",
+    "hex": "#F1F1EC"
+   }
+  ],
+  "description": "Eight linked cubes that fold endlessly in your hand. Quiet enough for class.",
+  "tags": [
+   "fidget",
+   "cube",
+   "desk toy"
+  ],
+  "createdAt": "2026-04-09",
+  "details": [
+   "Print-in-place moving parts",
+   "Quiet action, no assembly",
+   "PLA, pocket sized",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "gear-fidget-spinner",
+  "name": "Gear Fidget Spinner",
+  "category": "3d-printed",
+  "type": "Fidget",
+  "art": "spinner",
+  "price": 1400,
+  "compareAt": 1800,
+  "colors": [
+   {
+    "name": "Silk Copper",
+    "hex": "#B8683B"
+   },
+   {
+    "name": "Silk Silver",
+    "hex": "#A8ADB4"
+   }
+  ],
+  "badge": "Sale",
+  "description": "A three-gear spinner with interlocking teeth that turn together as it spins.",
+  "tags": [
+   "fidget",
+   "spinner",
+   "desk toy",
+   "gears"
+  ],
+  "createdAt": "2026-05-06",
+  "details": [
+   "Print-in-place moving parts",
+   "Quiet action, no assembly",
+   "PLA, pocket sized",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "flexi-axolotl",
+  "name": "Flexi Axolotl",
+  "category": "3d-printed",
+  "type": "Flexi Animal",
+  "art": "axolotl",
+  "price": 1800,
+  "colors": [
+   {
+    "name": "Pink",
+    "hex": "#F2A1B8"
+   },
+   {
+    "name": "Wild Brown",
+    "hex": "#7A5B45"
+   },
+   {
+    "name": "Gold",
+    "hex": "#E2B84A"
+   }
+  ],
+  "badge": "Bestseller",
+  "description": "A wiggly articulated axolotl with feathery gills and a permanent smile.",
+  "tags": [
+   "flexi",
+   "axolotl",
+   "articulated",
+   "animal"
+  ],
+  "createdAt": "2026-02-28",
+  "details": [
+   "Articulated body, prints in one piece",
+   "Matte PLA",
+   "Approx. 18 cm long",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "flexi-shark",
+  "name": "Flexi Shark",
+  "category": "3d-printed",
+  "type": "Flexi Animal",
+  "art": "shark",
+  "price": 1800,
+  "colors": [
+   {
+    "name": "Ocean Grey",
+    "hex": "#6F8494"
+   },
+   {
+    "name": "Great White",
+    "hex": "#DADDE0"
+   }
+  ],
+  "description": "A segmented shark that swims across your desk. Tail flicks side to side.",
+  "tags": [
+   "flexi",
+   "shark",
+   "articulated",
+   "animal",
+   "sea creature"
+  ],
+  "createdAt": "2026-07-07",
+  "details": [
+   "Articulated body, prints in one piece",
+   "Matte PLA",
+   "Approx. 18 cm long",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "flexi-lizard",
+  "name": "Flexi Lizard",
+  "category": "3d-printed",
+  "type": "Flexi Animal",
+  "art": "lizard",
+  "price": 1600,
+  "colors": [
+   {
+    "name": "Leaf Green",
+    "hex": "#4E9A3A"
+   },
+   {
+    "name": "Sand",
+    "hex": "#C9AF7A"
+   }
+  ],
+  "description": "A long-tailed lizard with articulated legs. Drapes over a pencil pot.",
+  "tags": [
+   "flexi",
+   "lizard",
+   "articulated",
+   "animal"
+  ],
+  "createdAt": "2026-08-14",
+  "details": [
+   "Articulated body, prints in one piece",
+   "Matte PLA",
+   "Approx. 18 cm long",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "desk-phone-stand",
+  "name": "Desk Phone Stand",
+  "category": "3d-printed",
+  "type": "Stand",
+  "art": "phonestand",
+  "price": 2200,
+  "colors": [
+   {
+    "name": "Matte Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Chalk White",
+    "hex": "#ECEDE8"
+   },
+   {
+    "name": "Ballpoint",
+    "hex": "#22308F"
+   }
+  ],
+  "description": "Holds your phone at a readable angle, portrait or landscape, with a slot for the charging cable.",
+  "tags": [
+   "stand",
+   "phone",
+   "desk",
+   "organiser"
+  ],
+  "createdAt": "2026-03-03",
+  "details": [
+   "Weighted PETG for stability",
+   "Rubber feet included",
+   "No assembly needed",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "dual-controller-stand",
+  "name": "Dual Controller Stand",
+  "category": "3d-printed",
+  "type": "Stand",
+  "art": "controllerstand",
+  "price": 3400,
+  "colors": [
+   {
+    "name": "Matte Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Chalk White",
+    "hex": "#ECEDE8"
+   }
+  ],
+  "badge": "New",
+  "description": "Stacks two game controllers neatly, with a cable channel at the back. Fits most console pads.",
+  "tags": [
+   "stand",
+   "gaming",
+   "controller",
+   "desk"
+  ],
+  "createdAt": "2026-09-15",
+  "details": [
+   "Weighted PETG for stability",
+   "Rubber feet included",
+   "No assembly needed",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "headphone-stand",
+  "name": "Arc Headphone Stand",
+  "category": "3d-printed",
+  "type": "Stand",
+  "art": "headphonestand",
+  "price": 3800,
+  "colors": [
+   {
+    "name": "Matte Black",
+    "hex": "#1C1C1E"
+   },
+   {
+    "name": "Stone Grey",
+    "hex": "#8C8E88"
+   },
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   }
+  ],
+  "description": "A curved headphone stand with a weighted base so it won't tip when you grab your headset.",
+  "tags": [
+   "stand",
+   "headphones",
+   "gaming",
+   "desk"
+  ],
+  "createdAt": "2026-04-26",
+  "details": [
+   "Weighted PETG for stability",
+   "Rubber feet included",
+   "No assembly needed",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "modular-desk-organizer",
+  "name": "Modular Desk Organiser",
+  "category": "3d-printed",
+  "type": "Organizer",
+  "art": "organizer",
+  "price": 3600,
+  "colors": [
+   {
+    "name": "Chalk White",
+    "hex": "#ECEDE8"
+   },
+   {
+    "name": "Sage",
+    "hex": "#9CAF95"
+   },
+   {
+    "name": "Matte Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "description": "Three clip-together trays for pens, cables and your phone. Rearrange them however your desk needs.",
+  "tags": [
+   "organiser",
+   "desk",
+   "storage"
+  ],
+  "createdAt": "2026-01-26",
+  "details": [
+   "Modular compartments",
+   "Matte PLA",
+   "Fits pens, cables and phone",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "initial-keychain",
+  "name": "Initial Keychain",
+  "category": "3d-printed",
+  "type": "Keychain",
+  "art": "keychain",
+  "price": 900,
+  "colors": [
+   {
+    "name": "Ballpoint",
+    "hex": "#22308F"
+   },
+   {
+    "name": "Highlighter",
+    "hex": "#E3EC4F"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8352B"
+   },
+   {
+    "name": "Black",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "sizes": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L",
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U",
+   "V",
+   "W",
+   "X",
+   "Y",
+   "Z"
+  ],
+  "description": "A chunky two-colour keychain with your initial. Pick a letter as the size option.",
+  "tags": [
+   "keychain",
+   "personalised",
+   "gift",
+   "small"
+  ],
+  "createdAt": "2026-06-08",
+  "details": [
+   "Two-colour PLA print",
+   "Split ring included",
+   "Approx. 5 cm",
+   "Printed to order in our studio"
+  ]
+ },
+ {
+  "slug": "low-poly-planet",
+  "name": "Low-Poly Ringed Planet",
+  "category": "3d-printed",
+  "type": "Model",
+  "art": "planet",
+  "price": 2800,
+  "colors": [
+   {
+    "name": "Saturn Sand",
+    "hex": "#D7B577"
+   },
+   {
+    "name": "Neptune Blue",
+    "hex": "#3A66C8"
+   }
+  ],
+  "description": "A faceted ringed planet on a slim stand. Looks good on a shelf next to the dragon.",
+  "tags": [
+   "model",
+   "decor",
+   "space",
+   "collectible"
+  ],
+  "createdAt": "2026-07-29",
+  "details": [
+   "Low-poly display piece",
+   "Matte PLA with silk accents",
+   "Approx. 15 cm tall",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "faceted-crystal-ornament",
+  "name": "Faceted Crystal Ornament",
+  "category": "3d-printed",
+  "type": "Model",
+  "art": "gem",
+  "price": 2000,
+  "colors": [
+   {
+    "name": "Amethyst",
+    "hex": "#7D52C2"
+   },
+   {
+    "name": "Emerald",
+    "hex": "#1E8C5A"
+   },
+   {
+    "name": "Ruby",
+    "hex": "#B8233A"
+   }
+  ],
+  "description": "An oversized gemstone printed in translucent silk PLA. Catches window light beautifully.",
+  "tags": [
+   "model",
+   "decor",
+   "collectible",
+   "gift"
+  ],
+  "createdAt": "2026-05-15",
+  "details": [
+   "Low-poly display piece",
+   "Matte PLA with silk accents",
+   "Approx. 15 cm tall",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ },
+ {
+  "slug": "moonshot-rocket-model",
+  "name": "Moonshot Rocket Model",
+  "category": "3d-printed",
+  "type": "Model",
+  "art": "rocket",
+  "price": 3000,
+  "colors": [
+   {
+    "name": "White and Red",
+    "hex": "#ECEDE8"
+   },
+   {
+    "name": "Black and Gold",
+    "hex": "#1C1C1E"
+   }
+  ],
+  "description": "A retro rocket model with a removable nose cone that doubles as a tiny stash box.",
+  "tags": [
+   "model",
+   "decor",
+   "space",
+   "storage"
+  ],
+  "createdAt": "2026-08-30",
+  "details": [
+   "Low-poly display piece",
+   "Matte PLA with silk accents",
+   "Approx. 15 cm tall",
+   "Printed to order in our studio"
+  ],
+  "sizes": []
+ }
+]

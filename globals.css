@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --header-h: 72px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--header-h) + var(--safe-top));
+  }
+  body {
+    @apply bg-paper text-ink antialiased;
+    font-feature-settings: 'ss01', 'tnum' 0;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: theme('colors.marker');
+    color: theme('colors.ink');
+  }
+  :focus-visible {
+    outline: 2px solid theme('colors.pen');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .on-dark :focus-visible {
+    outline-color: theme('colors.marker');
+  }
+  input, select, textarea, button {
+    font: inherit;
+    color: inherit;
+  }
+  [hidden] { display: none !important; }
+}
+
+@layer components {
+  .display {
+    font-variation-settings: 'wdth' 125;
+    font-weight: 850;
+    letter-spacing: -0.02em;
+    line-height: 0.88;
+    text-transform: uppercase;
+  }
+  .display-narrow {
+    font-variation-settings: 'wdth' 80;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 0.9;
+    text-transform: uppercase;
+  }
+  .wrap {
+    @apply mx-auto w-full max-w-site px-4 sm:px-6 lg:px-10;
+  }
+  .ruled {
+    background-image: repeating-linear-gradient(to bottom, transparent 0 31px, rgba(42, 63, 224, 0.1) 31px 32px);
+  }
+  .btn {
+    @apply relative inline-flex h-14 items-center justify-center gap-2 overflow-hidden rounded-full px-8 text-[15px] font-semibold transition-[background-color,color,box-shadow,transform] duration-500 ease-expo disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-ink text-paper hover:shadow-[0_12px_32px_-8px_rgba(19,28,94,0.55)];
+  }
+  .btn-marker {
+    @apply btn bg-marker text-ink hover:shadow-[0_0_0_6px_rgba(233,240,90,0.25),0_16px_40px_-12px_rgba(233,240,90,0.7)];
+  }
+  .btn-ghost {
+    @apply btn border border-current bg-transparent hover:bg-ink hover:text-paper;
+  }
+  .field {
+    @apply h-12 w-full rounded-lg border border-ink/20 bg-white/70 px-4 text-[15px] text-ink placeholder:text-graphite/70 transition-colors duration-300 focus:border-pen focus:bg-white focus:outline-none focus-visible:outline-2;
+  }
+  .label {
+    @apply mb-2 block text-sm font-medium text-ink;
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+  }
+  .glass {
+    background: rgba(243, 244, 238, 0.72);
+    backdrop-filter: blur(16px) saturate(1.4);
+    -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* Motion initial states. Only hidden when JS is running and motion is allowed. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .split-inner { transform: translate3d(0, 108%, 0); }
+  .js [data-reveal] { opacity: 0; transform: translate3d(0, 32px, 0); }
+  .js [data-clip] { clip-path: inset(100% 0% 0% 0%); }
+  .js [data-pdp-in] { opacity: 0; }
+}
+.split-word { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: 0.06em; margin-bottom: -0.06em; }
+.split-inner { display: inline-block; will-change: transform; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .cursor-ui { display: none !important; }
+}
