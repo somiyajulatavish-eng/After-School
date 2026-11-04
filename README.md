@@ -2,6 +2,8 @@
 
 A premium e-commerce storefront for **After School**: heavyweight clothing, unofficial football fan merch and print-to-order 3D printed toys and desk gear.
 
+Founder — Tavish.
+
 Built with Next.js 14 (App Router), TypeScript, Tailwind CSS, GSAP + ScrollTrigger, Lenis, Framer Motion and Stripe Checkout. Deploys to Vercel with no changes.
 
 ---
@@ -41,6 +43,19 @@ Without any environment variables the site is fully usable: checkout runs in **d
 | `CONTACT_TO_EMAIL` | With Resend | Inbox that receives contact form messages. |
 | `CONTACT_FROM_EMAIL` | With Resend | Verified sender, e.g. `After School <noreply@yourdomain.com>`. |
 | `RESEND_AUDIENCE_ID` | Optional | Resend audience that newsletter signups are added to. |
+| `EXCHANGE_RATES_URL` | Recommended for production | JSON endpoint returning rates per 1 USD, e.g. `https://open.er-api.com/v6/latest/USD`. Accepts `{ "rates": {…} }`, `{ "conversion_rates": {…} }` or a flat map. Cached for one hour. |
+| `EXCHANGE_RATES_JSON` | Optional | Static override when you don't want a live source, e.g. `{"EUR":0.86,"GBP":0.75,"INR":88}`. Missing currencies use the fallback table. |
+| `EXCHANGE_RATES_AS_OF` | Optional | ISO date identifying the `EXCHANGE_RATES_JSON` rate set. |
+
+## Currencies
+
+Prices are stored once, in USD cents, and converted only for display and checkout. Supported: USD, EUR, GBP, AED, SAR, QAR, KWD, BHD, OMR, INR, CAD, AUD, JPY, CNY, SGD, CHF (`lib/currency.ts`).
+
+- **Rate source** (`lib/server/rates.ts`): `EXCHANGE_RATES_URL` → `EXCHANGE_RATES_JSON` → built-in fallback table. The fallback uses official pegs for AED, SAR, QAR, BHD and OMR and reference values for floating currencies; replace it with a live source before taking real orders in those currencies.
+- **One currency per transaction**: discount eligibility and free-shipping thresholds are evaluated in USD; then each line, the discount and the shipping charge are converted once and summed in the chosen currency, so totals always add up exactly.
+- **Rounding**: amounts are rounded to each currency's minor unit (JPY has none; KWD, BHD and OMR have three decimals and are charged in steps of 10 fils, as Stripe requires).
+- **Checkout safety**: the server recalculates the bag with its own rates. If the rate set or total differs from what the visitor saw, it returns the fresh rates and asks them to review before paying. Stripe receives the session in the chosen currency.
+- **Default**: first-time visitors get a currency guessed from their time zone; the choice is saved with the bag.
 
 ## Payments (Stripe)
 
@@ -60,10 +75,10 @@ To record orders in a database or send fulfilment emails, add a Stripe webhook f
 - **Filters and sorting**: category, type, colour, size, price band, in-stock only; sort by featured, newest, price or rating.
 - **Discount codes** (`lib/discounts.ts`):
   - `AFTERSCHOOL10`: 10% off
-  - `FIRSTBELL`: 15% off orders over $75
+  - `FIRSTBELL`: 15% off orders over USD 35 (threshold shown converted)
   - `PRINTLAB20`: 20% off 3D printed items
   - `FREEKICK`: free standard shipping
-- **Shipping calculator**: 15 countries in four zones, standard and express, free standard shipping above a threshold per zone (`lib/shipping.ts`).
+- **Shipping calculator**: 23 countries in five zones, amounts shown in the chosen currency, standard and express, free standard shipping above a threshold per zone (`lib/shipping.ts`).
 - **Recommendations**: related products, "goes well with" in the bag, bestsellers on empty states.
 - **Forms**: newsletter and contact, with client and server validation, honeypot and per-IP rate limiting.
 - **SEO**: per-page metadata, canonical URLs, Open Graph image, Product / BlogPosting / BreadcrumbList / Organization JSON-LD, `sitemap.xml`, `robots.txt`. Transactional pages are `noindex`.
@@ -93,7 +108,8 @@ To record orders in a database or send fulfilment emails, add a Stripe webhook f
 | Page transitions | `components/providers/TransitionProvider.tsx` + `components/TLink.tsx` (curtain wipe; modifier clicks open normally) |
 | Split-text reveals | `components/motion/SplitText.tsx` (screen readers get the plain text) |
 | Clip-path image reveals | `components/motion/ClipReveal.tsx` |
-| Parallax | `components/motion/Parallax.tsx`, hero floaters in `components/home/HomeHero.tsx` |
+| Hero wordmark | `.hero-line` in `app/globals.css`: a CSS-only reveal, so "AFTER SCHOOL" always reaches its final visible state |
+| Parallax | `components/motion/Parallax.tsx`, hero frames in `components/home/HomeHero.tsx` |
 | Magnetic buttons | `components/motion/Magnetic.tsx` |
 | Cursor | `components/motion/Cursor.tsx` (fine pointers only) |
 | Pinned horizontal rail | `components/home/HorizontalRail.tsx` (desktop; native swipe on touch) |
@@ -138,4 +154,23 @@ Every football item is an original After School design inspired by team colours 
 | `npm run build` | Production build |
 | `npm start` | Serve the production build |
 | `npm run typecheck` | TypeScript check |
+| `npm run lint` | ESLint (next/core-web-vitals) |
 | `npm run generate:images` | Rebuild `data/products.json` and `public/products/` |
+
+## Verification status
+
+What has been checked for this release, and what still needs to run on a machine with npm registry access:
+
+- **Checked:** every page (home, shop, three categories, product, search, bag, checkout, confirmation, wishlist, journal, post, about, contact, 404) rendered in Chromium at ten viewports from 320 px phones to 2560 px desktops, plus landscape phone and tablet, with no horizontal overflow, no elements outside the viewport and no runtime errors. Mobile menu, bag drawer and currency picker (including keyboard selection) were exercised. Checkout, contact and newsletter routes were exercised in demo mode, including stale-rate and total-mismatch rejection. Currency maths was checked in all 16 currencies.
+- **Not yet run:** `npm install`, `npm run typecheck`, `npm run lint` and `npm run build` with the real dependencies. Run them (or let Vercel build) before going live.
+
+## Before your first deploy
+
+Run these once locally (or let Vercel run the build):
+
+```bash
+npm install
+npm run typecheck
+npm run lint
+npm run build
+```

@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Theme tokens (RGB channels so Tailwind alpha modifiers work) ---------- */
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --paper: 10 10 11;        /* page background */
+  --sheet: 20 21 23;        /* graphite surface */
+  --raised: 28 29 32;       /* raised surface / inputs */
+  --ink: 236 235 229;       /* primary text */
+  --graphite: 146 147 152;  /* secondary text */
+  --line: 236 235 229;      /* hairlines, used at low alpha */
+  --pen: 160 170 255;       /* link / focus accent */
+  --marker: 214 255 77;     /* neon accent, used sparingly */
+  --margin: 255 96 74;      /* signal red */
+  --chalk: 17 18 20;        /* deep panel */
+  --chalkline: 236 235 229; /* text on deep panel */
+  --header-h: 72px;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --paper: 242 241 236;
+  --sheet: 230 229 223;
+  --raised: 252 251 248;
+  --ink: 16 17 19;
+  --graphite: 92 94 100;
+  --line: 16 17 19;
+  --pen: 48 64 214;
+  --marker: 200 240 50;
+  --margin: 214 60 42;
+  --chalk: 18 19 21;
+  --chalkline: 236 235 229;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
+    background: rgb(var(--paper));
+  }
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-x: clip;
+  }
+  body {
+    @apply bg-paper text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: rgb(var(--marker));
+    color: #0a0a0b;
+  }
+  :focus-visible {
+    outline: 2px solid rgb(var(--pen));
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+}
+
+@layer components {
+  .display {
+    font-variation-settings: 'wdth' 125;
+    font-weight: 850;
+    letter-spacing: -0.025em;
+    line-height: 0.86;
+    text-transform: uppercase;
+  }
+  .display-narrow {
+    font-variation-settings: 'wdth' 78;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 0.92;
+    text-transform: uppercase;
+  }
+  .eyebrow-serif {
+    font-family: var(--font-serif), Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  .wrap {
+    @apply mx-auto w-full max-w-site px-5 sm:px-8 lg:px-12;
+  }
+  .page-glow {
+    background:
+      radial-gradient(60% 70% at 85% 0%, rgb(var(--ink) / 0.06), transparent 70%),
+      radial-gradient(30% 40% at 0% 100%, rgb(var(--marker) / 0.035), transparent 70%);
+  }
+  .spot {
+    background:
+      radial-gradient(60% 50% at var(--spot-x, 50%) var(--spot-y, 35%), rgb(var(--ink) / 0.07), transparent 70%),
+      radial-gradient(40% 40% at 85% 10%, rgb(var(--marker) / 0.06), transparent 70%);
+  }
+  .btn {
+    @apply relative inline-flex h-14 shrink-0 items-center justify-center gap-2 overflow-hidden whitespace-nowrap rounded-full px-6 sm:px-8 text-[15px] font-semibold transition-[background-color,color,box-shadow,transform,border-color] duration-500 ease-expo disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-ink text-paper hover:shadow-[0_16px_40px_-12px_rgb(var(--ink)/0.45)];
+  }
+  .btn-marker {
+    @apply btn bg-marker text-noir hover:shadow-[0_0_0_6px_rgb(var(--marker)/0.14),0_18px_44px_-14px_rgb(var(--marker)/0.55)];
+  }
+  .btn-ghost {
+    @apply btn border border-line/25 bg-transparent text-ink hover:border-ink hover:bg-ink hover:text-paper;
+  }
+  .field {
+    @apply h-12 w-full rounded-lg border border-line/15 bg-raised px-4 text-[15px] text-ink transition-colors duration-300 placeholder:text-graphite/70 focus:border-pen focus:outline-none;
+  }
+  .label {
+    @apply mb-2 block text-sm font-medium text-ink;
+  }
+  .surface {
+    @apply rounded-2xl bg-sheet shadow-[0_1px_0_rgb(var(--line)/0.06)_inset,0_30px_60px_-30px_rgb(0_0_0/0.6)];
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+  }
+  .glass {
+    background: rgb(var(--paper) / 0.62);
+    backdrop-filter: blur(18px) saturate(1.3);
+    -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Film grain: one static, fixed layer. */
+.grain {
+  position: fixed;
+  inset: -50%;
+  z-index: 140;
+  pointer-events: none;
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+:root[data-theme='light'] .grain {
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+  filter: invert(1);
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Motion initial states: only hidden when JS runs and motion is allowed. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .split-inner {
+    transform: translate3d(0, 108%, 0);
+  }
+  .js [data-reveal] {
+    opacity: 0;
+    transform: translate3d(0, 32px, 0);
+  }
+  .js [data-clip] {
+    clip-path: inset(100% 0% 0% 0%);
+  }
+  .js [data-pdp-in] {
+    opacity: 0;
+  }
+}
+.split-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+.split-inner {
+  display: inline-block;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .cursor-ui {
+    display: none !important;
+  }
+}
+
+/* ---------- Home hero ---------- */
+.hero-glow {
+  background:
+    radial-gradient(70% 55% at 70% 30%, rgb(var(--ink) / 0.07), transparent 70%),
+    radial-gradient(35% 30% at 18% 78%, rgb(var(--marker) / 0.06), transparent 70%),
+    linear-gradient(to bottom, transparent 60%, rgb(var(--paper)) 100%);
+}
+.hero-brand {
+  font-size: clamp(52px, 16.4vw, 300px);
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  padding-top: 0.04em;
+  max-width: 100%;
+}
+.hero-line {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+}
+.hero-space {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .hero-brand {
+    font-size: min(9.7vw, 164px);
+    white-space: nowrap;
+  }
+  .hero-line {
+    display: inline-block;
+  }
+  .hero-space {
+    display: inline;
+  }
+}
+/* Short landscape phones: one line so the wordmark never runs below the fold. */
+@media (orientation: landscape) and (max-height: 540px) {
+  .hero-brand {
+    font-size: 9.6vw;
+    white-space: nowrap;
+  }
+  .hero-line {
+    display: inline-block;
+  }
+  .hero-space {
+    display: inline;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-line {
+    animation: hero-rise 1.6s cubic-bezier(0.16, 1, 0.3, 1) var(--d, 0ms) both;
+  }
+  .hero-fade {
+    animation: hero-fade 1.2s cubic-bezier(0.16, 1, 0.3, 1) var(--d, 0ms) both;
+  }
+  .hero-frame {
+    animation: hero-frame 1.5s cubic-bezier(0.76, 0, 0.24, 1) var(--d, 0ms) both;
+  }
+}
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 34%, 0);
+    clip-path: inset(0% -10% 100% -10%);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    clip-path: inset(-25% -10% -25% -10%);
+  }
+}
+@keyframes hero-fade {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 16px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes hero-frame {
+  from {
+    clip-path: inset(100% 0% 0% 0%);
+  }
+  to {
+    clip-path: inset(0% 0% 0% 0%);
+  }
+}
